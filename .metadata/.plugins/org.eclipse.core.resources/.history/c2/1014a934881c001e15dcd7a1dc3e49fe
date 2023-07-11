@@ -1,0 +1,10 @@
+package com;
+
+public class Product {
+	private int id;
+	private String pname;
+	private int price;
+	private String desc;
+	
+
+}

@@ -1,0 +1,43 @@
+package com;
+
+public class Student {
+	
+	private int pid;
+	private String pname;
+	private int marks;
+	private String pclass;
+	public int getPid() {
+		return pid;
+	}
+	public void setPid(int pid) {
+		this.pid = pid;
+	}
+	public String getPname() {
+		return pname;
+	}
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+	public int getMarks() {
+		return marks;
+	}
+	public void setMarks(int marks) {
+		this.marks = marks;
+	}
+	public String getPclass() {
+		return pclass;
+	}
+	public void setPclass(String pclass) {
+		this.pclass = pclass;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Student [pid=" + pid + ", pname=" + pname + ", marks=" + marks + ", pclass=" + pclass + "]";
+	}
+	public void display() {
+		System.out.println(pid + " " + pname + " " + marks + " " + pclass);
+	}
+
+}

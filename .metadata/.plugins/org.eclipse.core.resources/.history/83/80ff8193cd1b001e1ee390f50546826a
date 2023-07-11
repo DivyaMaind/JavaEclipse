@@ -1,0 +1,9 @@
+package com;
+
+public class Employee {
+	
+	private int uid;
+	private String name;
+	private String desig;
+	
+	

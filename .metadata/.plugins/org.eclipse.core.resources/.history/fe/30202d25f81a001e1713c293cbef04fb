@@ -1,0 +1,23 @@
+package com;
+
+import java.util.*;
+import java.time.LocalDate;
+import java.util.*;
+class A {
+
+    A() {
+
+        Date d = new Date();
+        System.out.println(d);
+        
+        LocalDate localDate = LocalDate.now();
+        System.out.println(localDate);
+    }
+}
+
+class demo1 {
+
+    public static void main(String[] args) {
+        A a = new A();
+    }
+}

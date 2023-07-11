@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bank Application</title>
+ <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 100px;
+            background-color:  #ADD8E6;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .error-msg {
+            color: #FF0000;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+	<div style="text-align: center;" class="container">
+	
+		<h1>Create account</h1>
+		<form action="Create.jsp" method="GET">
+			
+			<table border="1" >
+		
+				<tr>
+					<td>
+						Id:
+					</td>
+					<td>
+						<input type="text" name="id">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Name:
+					</td>
+					<td>
+						<input type="text" name="name">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Account No:
+					</td>
+					<td>
+						<input type="text" name="acc">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						IFSC:
+					</td>
+					<td>
+						<input type="text" name="ifsc">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						PAN:
+					</td>
+					<td>
+						<input type="text" name="pan">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Phone No:
+					</td>
+					<td>
+						<input type="text" name="phn">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Aadhar:
+					</td>
+					<td>
+						<input type="text" name="adr">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						Initial Balance:
+					</td>
+					<td>
+						<input type="text" name="inb">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<input type="submit" value="submit">
+					</td>
+				</tr>
+		
+			</table>
+		
+		</form>
+	
+	</div>
+	
+</body>
+
+</body>
+</html>

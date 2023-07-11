@@ -1,0 +1,48 @@
+package com;
+
+import javax.persistence.Id;
+import javax.persistence.Entity;
+
+
+@Entity
+public class Employee { 
+	
+	@Id
+    private int uid; 
+    private String name; 
+    private int usalary;
+    private String desig; 
+
+    public int getUid() { 
+        return uid; 
+    } 
+
+    public void setUid(int uid) { 
+        this.uid = uid; 
+    } 
+    
+    public String getName() { 
+        return name; 
+    } 
+
+    public void setName(String name) { 
+        this.name = name; 
+    } 
+    
+    public int getSalary() { 
+        return usalary; 
+    } 
+    public void setUsalary(int usalary) { 
+        this.usalary = usalary; 
+    } 
+   
+   
+    public String getDesig() { 
+        return desig; 
+    } 
+
+    public void setDesig(String desig) { 
+        this.desig = desig; 
+    } 
+
+}

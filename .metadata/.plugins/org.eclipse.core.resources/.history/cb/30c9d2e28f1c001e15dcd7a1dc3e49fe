@@ -1,0 +1,17 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Person {
+
+	private int uid;
+	private String name;
+	private String[] hobbies;
+	private ArrayList<String> emails;
+	private HashSet<String> phones;
+	private HashMap<String, String> education;
+	
+	
+}

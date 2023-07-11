@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bank Application</title>
+<body>
+  <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 100px;
+            background-color: #ADD8E6;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+
+	<body>
+	    <marquee width="100%" direction="left" height="100px">
+		Welcome to the Bank Application..
+		</marquee>
+	
+    <div class="container">
+        <h2>Login</h2>
+		
+		<form action = "Login.jsp" method="GET">
+			 <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="uname" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="upass" required>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" class="btn" value="Login">
+                <input type="reset" class="btn" value="reset">
+            </div>
+                       
+	</div>
+	
+</body>
+</html>

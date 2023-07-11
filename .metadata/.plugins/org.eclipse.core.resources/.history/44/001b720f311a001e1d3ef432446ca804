@@ -1,0 +1,11 @@
+package com;
+
+public class Employee {
+
+		Private int id;
+		Private String firstname;
+		Private String lastname;
+
+	
+
+}

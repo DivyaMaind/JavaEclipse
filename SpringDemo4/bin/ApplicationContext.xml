@@ -1,0 +1,15 @@
+<beans xmlns = "http://www.springframework.org/schema/beans" 
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="pro" class="com.Product">
+	
+		<constructor-arg name ="pid" type="int"><value>100</value></constructor-arg>
+		<constructor-arg name ="pname"><value>XYZ</value></constructor-arg>
+		<constructor-arg name ="price" type ="int"><value>10000</value></constructor-arg>
+		<constructor-arg name ="pdesp"><value>Good</value></constructor-arg>
+			
+	</bean>
+	
+</beans>
